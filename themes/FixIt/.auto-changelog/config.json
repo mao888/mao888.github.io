@@ -1,0 +1,19 @@
+{
+  "output": "CHANGELOG.md",
+  "template": ".auto-changelog/template.hbs",
+  "handlebarsSetup": ".auto-changelog/setup.js",
+  "sortCommits": "relevance",
+  "commitLimit": false,
+  "ignoreCommitPattern": "\\(ignore\\)",
+  "replaceText": {
+    "^(Feat|feat):": ":sparkles: Feat:",
+    "^(Fix|fix):": ":bug: Fix:",
+    "^(Build|build):": ":hammer: Build:",
+    "^(Refactor|refactor):": ":recycle: Refactor:",
+    "^(Style|style):": ":lipstick: Style:",
+    "^(Perf|perf):": ":zap: Perf:",
+    "^(Test|test):": ":white_check_mark: Test:",
+    "^(Docs|docs):": ":memo: Docs:",
+    "^(Chore|chore):": ":wrench: Chore:"
+  }
+}

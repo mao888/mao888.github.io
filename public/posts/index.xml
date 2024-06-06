@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>所有文章 - 毛</title>
+    <link>https://blog.huchao.vip/posts/</link>
+    <description>所有文章 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Jun 2024 18:29:57 &#43;0800</lastBuildDate><atom:link href="https://blog.huchao.vip/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>渲染页面:浏览器的工作原理</title>
+  <link>https://blog.huchao.vip/posts/eb9e598/</link>
+  <pubDate>Thu, 06 Jun 2024 18:29:57 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>https://blog.huchao.vip/posts/eb9e598/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>我的第一篇博客</title>
+  <link>https://blog.huchao.vip/posts/583bc6c/</link>
+  <pubDate>Thu, 06 Jun 2024 18:27:12 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>https://blog.huchao.vip/posts/583bc6c/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,16 @@
+{{- /* Set site home relative permalink */ -}}
+{{- $homeRelPermalink := .Site.Home.RelPermalink -}}
+{{- $homeRelPermalink = strings.TrimSuffix "archives/" $homeRelPermalink -}}
+{{- $homeRelPermalink = strings.TrimSuffix "offline/" $homeRelPermalink -}}
+{{- .Scratch.Set "homeRelPermalink" $homeRelPermalink -}}
+
+{{- /* Set pages of main section */ -}}
+{{- $pages := where .Site.RegularPages "Type" "posts" -}}
+{{- .Scratch.Set "mainSectionPages" $pages -}}
+
+{{- /* Select the scope named `public_repo` to generate personal access token */ -}}
+{{- $header := dict "Authorization" "" -}}
+{{- with (getenv "HUGO_PARAMS_GHTOKEN") -}}
+  {{- $header = dict "Authorization" (printf "token %v" .)  -}}
+{{- end -}}
+{{- .Scratch.Set "githubTokenHeader" $header -}}
