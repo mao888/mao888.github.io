@@ -10,3 +10,18 @@
 - public：存放 Hugo 生成的静态网页
 - themes：存放主题文件
 - config.toml：网站配置文件
+
+## 命令
+**创建新博客**
+```shell
+hugo new content posts/my-first-post.md
+```
+**实时预览你正在编辑的文章页面**
+```shell
+hugo server -D --disableFastRender
+```
+
+**发布网站**
+```shell
+hugo
+```
