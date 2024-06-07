@@ -2,13 +2,14 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>https://blog.huchao.vip/categories/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/posts/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/tags/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/tags/web/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/categories/web/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/posts/eb9e598/</loc><lastmod>2024-06-06T18:29:57&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/tags/draft/</loc><lastmod>2024-06-06T18:27:12&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/categories/draft/</loc><lastmod>2024-06-06T18:27:12&#43;08:00</lastmod></url><url>
-      <loc>https://blog.huchao.vip/posts/583bc6c/</loc><lastmod>2024-06-06T18:27:12&#43;08:00</lastmod></url></urlset>
+      <loc>http://localhost:1313/categories/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/posts/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/tags/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/tags/web/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/categories/web/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/posts/eb9e598/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/tags/draft/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/categories/draft/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/posts/583bc6c/</loc><lastmod>2024-06-06T18:41:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+      <loc>http://localhost:1313/collections/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
