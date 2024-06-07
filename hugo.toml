@@ -43,25 +43,27 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     identifier = "archives"
+    # FixIt 0.2.14 | 新增 父级菜单项的标识符 (identifier)
     parent = ""
-    # you can add extra information before the name (HTML format is supported), such as icons
+    # you can add extra information before the name (HTML format is supported), such as icons #你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
+    # you can add extra information after the name (HTML format is supported), such as icons  # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
     post = ""
     name = "Archives"
     url = "/archives/"
-    # title will be shown when you hover on this menu link
+    # title will be shown when you hover on this menu link  # 当你将鼠标悬停在此菜单链接上时，将显示的标题
     title = ""
     weight = 1
     # FixIt 0.2.14 | NEW add user-defined content to menu items
+    # FixIt 0.2.14 | 新增 向菜单项添加用户定义的内容
     [menu.main.params]
-      # add css class to a specific menu item
+      # add css class to a specific menu item   # 添加 CSS 类到菜单项
       class = ""
-      # whether set as a draft menu item whose function is similar to a draft post/page
+      # whether set as a draft menu item whose function is similar to a draft post/page # 是否为草稿菜单，类似草稿页面
       draft = false
-      # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
+      # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item # FixIt 0.2.16 | 新增 添加 fontawesome 图标到菜单项
       icon = "fa-solid fa-archive"
-      # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
+      # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"] # FixIt 0.2.16 | 新增 设置菜单项类型，可选值：["mobile", "desktop"]
       type = ""
   [[menu.main]]
     identifier = "categories"
