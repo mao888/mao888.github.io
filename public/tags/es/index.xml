@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Es - 标签 - 毛</title>
+    <link>http://localhost:1313/tags/es/</link>
+    <description>Es - 标签 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
+      <webMaster>2557523039@qq.com (胡超)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 05 Aug 2023 22:15:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/es/" rel="self" type="application/rss+xml" /><item>
+  <title>简单好用的ElasticSearch可视化工具：es-client和Head</title>
+  <link>http://localhost:1313/posts/elasticsearch-client-es-client-head/</link>
+  <pubDate>Sat, 05 Aug 2023 22:15:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/elasticsearch-client-es-client-head/</guid>
+  <description><![CDATA[使用 ElasticSearch(简称 es) 的过程中，经常有一些临时查询(如 排查问题、验证效果)，一个趁手的可视化工具 可以提高工作效率。个人倾向于 免费(最好开源)、易于安装(如 浏览器插件)，`es-client` 就是 比较简单好用的一个，尤其是 查询。]]></description>
+</item>
+<item>
+  <title>用easy-es简化ElasticSearch操作</title>
+  <link>http://localhost:1313/posts/easy-es-cover-elasticsearch/</link>
+  <pubDate>Wed, 05 Apr 2023 16:15:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/easy-es-cover-elasticsearch/</guid>
+  <description><![CDATA[ElasticSearch的Java客户端中，spring-data-elasticsearch 简化了 增删改、建索引等，没有简化 复杂查询 编码。easy-es API 类似 Mybatis-Plus，大幅降低开发门槛，减少代码量，支持 自定义排序、权重、原生查询，留下了 广阔的调整空间]]></description>
+</item>
+</channel>
+</rss>

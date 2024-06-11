@@ -11,7 +11,7 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "毛神"
+title = "毛"
 # Hostname (and path) to the root
 baseURL = "https://blog.huchao.vip/"
 # theme list
@@ -39,6 +39,494 @@ enableEmoji = true
 # Menu Configuration
 # See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
 # -------------------------------------------------------------------------------------
+
+
+[languages]
+[languages.en]
+weight = 1
+# language code
+languageCode = "en"
+# language name
+languageName = "English"
+# whether to include Chinese/Japanese/Korean
+hasCJKLanguage = false
+# default amount of posts in each pages
+paginate = 12
+# [UA-XXXXXXXX-X] google analytics code
+googleAnalytics = ""
+# copyright description used only for seo schema
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+# Menu config
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "posts"
+# Identifier of the parent menu item since v0.2.14
+parent = ""
+# you can add extra information before the name (HTML format is supported), such as icons
+pre = ""
+# you can add extra information after the name (HTML format is supported), such as icons
+post = ""
+name = "Posts"
+url = "/posts/"
+# title will be shown when you hover on this menu link
+title = ""
+weight = 1
+[languages.en.menu.main.params]
+icon = "fa-solid fa-archive"
+[[languages.en.menu.main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "Categories"
+url = "/categories/"
+title = ""
+weight = 2
+[languages.en.menu.main.params]
+icon = "fa-solid fa-th"
+[[languages.en.menu.main]]
+identifier = "tags"
+pre = ""
+post = ""
+name = "Tags"
+url = "/tags/"
+title = ""
+weight = 3
+[languages.en.menu.main.params]
+icon = "fa-solid fa-tags"
+[[languages.en.menu.main]]
+identifier = "documentation"
+pre = ""
+post = ""
+name = "Docs"
+url = "/categories/documentation/"
+title = "Theme Documentation"
+weight = 4
+[languages.en.menu.main.params]
+icon = "fa-solid fa-book"
+[[languages.en.menu.main]]
+identifier = "tests"
+pre = ""
+post = ""
+name = "Tests"
+url = "/tests/"
+title = "Test for FixIt"
+weight = 5
+[languages.en.menu.main.params]
+draft = false
+icon = "fa-solid fa-flask"
+[[languages.en.menu.main]]
+identifier = "friends"
+pre = ""
+post = ""
+name = "Friends"
+url = "/friends/"
+title = ""
+weight = 6
+[languages.en.menu.main.params]
+icon = "fa-solid fa-users"
+[[languages.en.menu.main]]
+identifier = "about"
+pre = ""
+post = ""
+name = "About"
+url = "/about/"
+title = ""
+weight = 7
+[languages.en.menu.main.params]
+icon = "fa-solid fa-info-circle"
+[[languages.en.menu.main]]
+identifier = "github"
+pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
+post = ""
+name = ""
+url = "https://github.com/mao888"
+title = "GitHub"
+weight = 8
+[languages.en.menu.main.params]
+class = "text-center"
+type = "mobile"
+[languages.en.params]
+# site description
+description = "mao's blog"
+# site keywords
+keywords = ["mao", "go", "backend"]
+# Search config
+[languages.en.params.search]
+enable = true
+# type of search engine ("lunr", "algolia")
+type = "algolia"
+# max index length of the chunked content
+contentLength = 4000
+# placeholder of the search bar
+placeholder = ""
+# max number of results length
+maxResultLength = 10
+# snippet length of the result
+snippetLength = 30
+# HTML tag name of the highlight part in results
+highlightTag = "em"
+# whether to use the absolute URL based on the baseURL in search index
+absoluteURL = false
+[languages.en.params.search.algolia]
+index = "index.en"
+appID = "4O2Y44OA2O"
+searchKey = "f847ccbebe7df68057949602ba9027ff"
+# Home page config
+[languages.en.params.home]
+# amount of RSS pages
+rss = 10
+# Home page profile
+[languages.en.params.home.profile]
+enable = true
+# Gravatar Email for preferred avatar in home page
+gravatarEmail = ""
+# URL of avatar shown in home page
+avatarURL = "/images/avatar.png"
+# title shown in home page (HTML format is supported)
+title = ""
+# subtitle shown in home page
+subtitle = "mao's blog, about Golang"
+# whether to use typeit animation for subtitle
+typeit = true
+# whether to show social links
+social = true
+# disclaimer (HTML format is supported)
+disclaimer = ""
+# Home page posts
+[languages.en.params.home.posts]
+enable = true
+# special amount of posts in each home posts page
+paginate = 6
+# Social config in home page
+[languages.en.params.social]
+GitHub = "mao888"
+Linkedin = ""
+Twitter = ""
+Instagram = ""
+Facebook = ""
+Telegram = ""
+Medium = ""
+Gitlab = ""
+Youtubelegacy = ""
+Youtubecustom = ""
+Youtubechannel = ""
+Tumblr = ""
+Quora = ""
+Keybase = ""
+Pinterest = ""
+Reddit = ""
+Codepen = ""
+FreeCodeCamp = ""
+Bitbucket = ""
+Stackoverflow = ""
+Weibo = ""
+Odnoklassniki = ""
+VK = ""
+Flickr = ""
+Xing = ""
+Snapchat = ""
+Soundcloud = ""
+Spotify = ""
+Bandcamp = ""
+Paypal = ""
+Fivehundredpx = ""
+Mix = ""
+Goodreads = ""
+Lastfm = ""
+Foursquare = ""
+Hackernews = ""
+Kickstarter = ""
+Patreon = ""
+Steam = ""
+Twitch = ""
+Strava = ""
+Skype = ""
+Whatsapp = ""
+Zhihu = ""
+Douban = ""
+Angellist = ""
+Slidershare = ""
+Jsfiddle = ""
+Deviantart = ""
+Behance = ""
+Dribbble = ""
+Wordpress = ""
+Vine = ""
+Googlescholar = ""
+Researchgate = ""
+Thingiverse = ""
+Devto = ""
+Gitea = ""
+XMPP = ""
+Matrix = ""
+Bilibili = ""
+# ORCID, ... , CSDN since v0.2.13
+ORCID = ""
+Liberapay = ""
+Ko-Fi = ""
+BuyMeaCoffee = ""
+Linktree = ""
+QQ = ""
+QQGroup = "" # https://qun.qq.com/join.html
+Diaspora = ""
+CSDN = "qq_45696377"
+Email = "2557523039@qq.com"
+RSS = true # since v0.2.0
+
+[languages.zh-cn]
+weight = 2
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+# 语言名称
+languageName = "简体中文"
+# 是否包括中日韩文字
+hasCJKLanguage = true
+# 默认每页列表显示的文章数目
+paginate = 12
+# [UA-XXXXXXXX-X] 谷歌分析代号
+googleAnalytics = ""
+# 版权描述，仅仅用于 SEO
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+# 菜单配置
+[languages.zh-cn.menu]
+[[languages.zh-cn.menu.main]]
+identifier = "posts"
+# 父级菜单项的标识符 (identifier) since v0.2.14
+parent = ""
+# 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+pre = ""
+# 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+post = ""
+name = "所有文章"
+url = "/posts/"
+title = ""
+weight = 1
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-archive"
+[[languages.zh-cn.menu.main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "分类"
+url = "/categories/"
+title = ""
+weight = 2
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-th"
+[[languages.zh-cn.menu.main]]
+identifier = "tags"
+pre = ""
+post = ""
+name = "标签"
+url = "/tags/"
+title = ""
+weight = 3
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-tags"
+[[languages.zh-cn.menu.main]]
+identifier = "documentation"
+pre = ""
+name = "文档"
+url = "/categories/documentation/"
+title = "主题文档"
+weight = 4
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-book"
+[[languages.zh-cn.menu.main]]
+identifier = "tests"
+pre = ""
+post = ""
+name = "测试"
+url = "/tests/"
+title = "FixIt 测试"
+weight = 5
+[languages.zh-cn.menu.main.params]
+draft = false
+icon = "fa-solid fa-flask"
+[[languages.zh-cn.menu.main]]
+identifier = "friends"
+pre = ""
+post = ""
+name = "友链"
+url = "/friends/"
+title = "友情链接"
+weight = 6
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-users"
+[[languages.zh-cn.menu.main]]
+identifier = "about"
+pre = ""
+post = ""
+name = "关于"
+url = "/about/"
+title = ""
+weight = 7
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-info-circle"
+[[languages.zh-cn.menu.main]]
+identifier = "github"
+pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
+post = ""
+name = ""
+url = "https://github.com/mao888"
+title = "GitHub"
+weight = 8
+[languages.zh-cn.menu.main.params]
+class = "d-none-desktop text-center"
+[languages.zh-cn.params]
+# 网站描述
+description = "毛 的博客"
+# 网站关键词
+keywords = ["毛", "Golang", "后端"]
+# 搜索配置
+[languages.zh-cn.params.search]
+enable = true
+# 搜索引擎的类型 ("lunr", "algolia")
+type = "algolia"
+# 文章内容最长索引长度
+contentLength = 4000
+# 搜索框的占位提示语
+placeholder = ""
+# 最大结果数目
+maxResultLength = 10
+# 结果内容片段长度
+snippetLength = 50
+# 搜索结果中高亮部分的 HTML 标签
+highlightTag = "em"
+# 是否在搜索索引中使用基于 baseURL 的绝对路径
+absoluteURL = false
+[languages.zh-cn.params.search.algolia]
+index = "index.zh-cn"
+appID = "4O2Y44OA2O"
+searchKey = "f847ccbebe7df68057949602ba9027ff"
+# 主页信息设置
+[languages.zh-cn.params.home]
+# RSS 文章数目
+rss = 10
+# 主页个人信息
+[languages.zh-cn.params.home.profile]
+enable = true
+# Gravatar 邮箱，用于优先在主页显示的头像
+gravatarEmail = ""
+# 主页显示头像的 URL
+avatarURL = "/images/avatar-github.jpeg"
+# 主页显示的网站标题 (支持 HTML 格式)
+title = "<strong style='font-size: larger;'>If it's impossible, create it！</strong><br>"
+# 主页显示的网站副标题
+subtitle = "如果有不可能，那就去创造！"
+# 是否为副标题显示打字机动画
+typeit = true
+# 是否显示社交账号
+social = true
+# 免责声明 (支持 HTML 格式)
+disclaimer = ""
+# 主页文章列表
+[languages.zh-cn.params.home.posts]
+enable = true
+# 主页每页显示文章数量
+paginate = 6
+# 主页的社交信息设置
+[languages.zh-cn.params.social]
+GitHub = "mao888"
+Linkedin = ""
+Twitter = ""
+Instagram = ""
+Facebook = ""
+Telegram = ""
+Medium = ""
+Gitlab = ""
+Youtubelegacy = ""
+Youtubecustom = ""
+Youtubechannel = ""
+Tumblr = ""
+Quora = ""
+Keybase = ""
+Pinterest = ""
+Reddit = ""
+Codepen = ""
+FreeCodeCamp = ""
+Bitbucket = ""
+Stackoverflow = ""
+Weibo = ""
+Odnoklassniki = ""
+VK = ""
+Flickr = ""
+Xing = ""
+Snapchat = ""
+Soundcloud = ""
+Spotify = ""
+Bandcamp = ""
+Paypal = ""
+Fivehundredpx = ""
+Mix = ""
+Goodreads = ""
+Lastfm = ""
+Foursquare = ""
+Hackernews = ""
+Kickstarter = ""
+Patreon = ""
+Steam = ""
+Twitch = ""
+Strava = ""
+Skype = ""
+Whatsapp = ""
+Zhihu = ""
+Douban = ""
+Angellist = ""
+Slidershare = ""
+Jsfiddle = ""
+Deviantart = ""
+Behance = ""
+Dribbble = ""
+Wordpress = ""
+Vine = ""
+Googlescholar = ""
+Researchgate = ""
+Mastodon = ""
+Thingiverse = ""
+Devto = ""
+Gitea = ""
+XMPP = ""
+Matrix = ""
+Bilibili = ""
+# ORCID, ... , CSDN since v0.2.13
+ORCID = ""
+Liberapay = ""
+Ko-Fi = ""
+BuyMeaCoffee = ""
+Linktree = ""
+QQ = ""
+QQGroup = "" # https://qun.qq.com/join.html
+Diaspora = ""
+CSDN = "qq_45696377"
+Email = "2557523039@qq.com"
+RSS = true # since v0.2.0
+# 盘古之白配置 since v0.2.12
+[languages.zh-cn.params.pangu]
+# 适用于中文写作用户
+enable = true
+# 水印配置 since v0.2.12
+# 详细参数见 https://github.com/Lruihao/watermark#readme
+[languages.zh-cn.params.watermark]
+enable = true
+# 水印内容 (允许 HTML 格式)
+content = '<img class="fixit-icon" src="/images/fixit.svg" alt="毛 的博客" /> 毛 的博客'
+# 水印透明度
+opacity = 0.0125
+# 单水印高度 单位：px
+height = 21
+# 在顶部右侧显示 GitHub 开源链接 since v0.2.14
+[languages.zh-cn.params.githubCorner]
+enable = true
+permalink = "https://github.com/mao888"
+title = "在 GitHub 上查看源代码"
+position = "right" # left, right
+# Gravatar 设置 since v0.2.14
+[languages.zh-cn.params.gravatar]
+# Gravatar 主机，默认：“www.gravatar.com”
+host = "gravatar.loli.net"
+style = "mp" # "", mp, identicon, monsterid, wavatar, retro, blank, robohash
+
 
 [menu]
   [[menu.main]]
@@ -327,12 +815,12 @@ enableEmoji = true
     name = "胡超"
     email = "2557523039@qq.com"
     link = "https://github.com/mao888"
-    avatar = "images/avatar.jpeg"
+    avatar = "images/avatar-ding.jpg"
 
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
     # e.g. "https://github.com/hugo-fixit/docs"
-    repo = ""
+    repo = "https://github.com/mao888/mao888.github.io"
     branch = "main"
     # the content directory path relative to the root of the repository
     dir = "content"
@@ -343,7 +831,7 @@ enableEmoji = true
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "FixIt"
+    title = "毛 的的博客"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files

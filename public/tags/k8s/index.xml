@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>K8s - 标签 - 毛</title>
+    <link>http://localhost:1313/tags/k8s/</link>
+    <description>K8s - 标签 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
+      <webMaster>2557523039@qq.com (胡超)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 23 May 2023 20:05:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/k8s/" rel="self" type="application/rss+xml" /><item>
+  <title>Kubernetes(k8s)最大启动时长研究</title>
+  <link>http://localhost:1313/posts/app-max-boot-time-on-k8s/</link>
+  <pubDate>Tue, 23 May 2023 20:05:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/app-max-boot-time-on-k8s/</guid>
+  <description><![CDATA[Kubernetes(k8s) 环境中，应用 最大启动时长研究]]></description>
+</item>
+</channel>
+</rss>

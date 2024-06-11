@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>所有文章 - 毛神</title>
+    <title>所有文章 - 毛</title>
     <link>http://localhost:1313/posts/</link>
-    <description>所有文章 | 毛神</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
-      <webMaster>2557523039@qq.com (胡超)</webMaster><lastBuildDate>Thu, 06 Jun 2024 18:29:57 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <description>所有文章 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
+      <webMaster>2557523039@qq.com (胡超)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 06 Jun 2024 18:29:57 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
   <title>渲染页面:浏览器的工作原理</title>
   <link>http://localhost:1313/posts/eb9e598/</link>
   <pubDate>Thu, 06 Jun 2024 18:29:57 &#43;0800</pubDate>
@@ -19,6 +19,46 @@
   <author>胡超</author>
   <guid>http://localhost:1313/posts/583bc6c/</guid>
   <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>简单好用的ElasticSearch可视化工具：es-client和Head</title>
+  <link>http://localhost:1313/posts/elasticsearch-client-es-client-head/</link>
+  <pubDate>Sat, 05 Aug 2023 22:15:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/elasticsearch-client-es-client-head/</guid>
+  <description><![CDATA[使用 ElasticSearch(简称 es) 的过程中，经常有一些临时查询(如 排查问题、验证效果)，一个趁手的可视化工具 可以提高工作效率。个人倾向于 免费(最好开源)、易于安装(如 浏览器插件)，`es-client` 就是 比较简单好用的一个，尤其是 查询。]]></description>
+</item>
+<item>
+  <title>HTTP接口性能压力测试</title>
+  <link>http://localhost:1313/posts/http-api-benchmarking-load-testing/</link>
+  <pubDate>Tue, 18 Jul 2023 11:05:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/http-api-benchmarking-load-testing/</guid>
+  <description><![CDATA[开发接口以后，对性能有要求的 接口，需要做 性能压力测试。常见免费的如：经典的 ab，性能不太好的 jmeter、siege(有时候都怀疑程序性能不行了)，另介绍 hey、k6、vegeta、wrk]]></description>
+</item>
+<item>
+  <title>开源数据集成平台SeaTunnel：MySQL实时同步到es</title>
+  <link>http://localhost:1313/posts/data-sync-apache-seatunnel/</link>
+  <pubDate>Tue, 04 Jul 2023 23:05:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/data-sync-apache-seatunnel/</guid>
+  <description><![CDATA[免费支持 MySQL 实时同步到 ElasticSearch 的工具很少，Apache SeaTunnel 是一个高性能开源大数据集成工具，提供灵活易用、易扩展并支持千亿级数据集成的解决方案，已经在B站、腾讯云、字节等数百家公司使用。]]></description>
+</item>
+<item>
+  <title>Kubernetes(k8s)最大启动时长研究</title>
+  <link>http://localhost:1313/posts/app-max-boot-time-on-k8s/</link>
+  <pubDate>Tue, 23 May 2023 20:05:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/app-max-boot-time-on-k8s/</guid>
+  <description><![CDATA[Kubernetes(k8s) 环境中，应用 最大启动时长研究]]></description>
+</item>
+<item>
+  <title>用easy-es简化ElasticSearch操作</title>
+  <link>http://localhost:1313/posts/easy-es-cover-elasticsearch/</link>
+  <pubDate>Wed, 05 Apr 2023 16:15:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/easy-es-cover-elasticsearch/</guid>
+  <description><![CDATA[ElasticSearch的Java客户端中，spring-data-elasticsearch 简化了 增删改、建索引等，没有简化 复杂查询 编码。easy-es API 类似 Mybatis-Plus，大幅降低开发门槛，减少代码量，支持 自定义排序、权重、原生查询，留下了 广阔的调整空间]]></description>
 </item>
 </channel>
 </rss>

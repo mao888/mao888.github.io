@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Draft - 标签 - 毛神</title>
+    <title>Draft - 标签 - 毛</title>
     <link>http://localhost:1313/tags/draft/</link>
-    <description>Draft - 标签 | 毛神</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
-      <webMaster>2557523039@qq.com (胡超)</webMaster><lastBuildDate>Thu, 06 Jun 2024 18:27:12 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/draft/" rel="self" type="application/rss+xml" /><item>
+    <description>Draft - 标签 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
+      <webMaster>2557523039@qq.com (胡超)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 06 Jun 2024 18:27:12 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/draft/" rel="self" type="application/rss+xml" /><item>
   <title>我的第一篇博客</title>
   <link>http://localhost:1313/posts/583bc6c/</link>
   <pubDate>Thu, 06 Jun 2024 18:27:12 &#43;0800</pubDate>

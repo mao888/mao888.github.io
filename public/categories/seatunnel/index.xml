@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Seatunnel - 分类 - 毛</title>
+    <link>http://localhost:1313/categories/seatunnel/</link>
+    <description>Seatunnel - 分类 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
+      <webMaster>2557523039@qq.com (胡超)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 04 Jul 2023 23:05:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/seatunnel/" rel="self" type="application/rss+xml" /><item>
+  <title>开源数据集成平台SeaTunnel：MySQL实时同步到es</title>
+  <link>http://localhost:1313/posts/data-sync-apache-seatunnel/</link>
+  <pubDate>Tue, 04 Jul 2023 23:05:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/data-sync-apache-seatunnel/</guid>
+  <description><![CDATA[免费支持 MySQL 实时同步到 ElasticSearch 的工具很少，Apache SeaTunnel 是一个高性能开源大数据集成工具，提供灵活易用、易扩展并支持千亿级数据集成的解决方案，已经在B站、腾讯云、字节等数百家公司使用。]]></description>
+</item>
+</channel>
+</rss>

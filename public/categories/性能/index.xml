@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>性能 - 分类 - 毛</title>
+    <link>http://localhost:1313/categories/%E6%80%A7%E8%83%BD/</link>
+    <description>性能 - 分类 | 毛</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2557523039@qq.com (胡超)</managingEditor>
+      <webMaster>2557523039@qq.com (胡超)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 18 Jul 2023 11:05:22 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%80%A7%E8%83%BD/" rel="self" type="application/rss+xml" /><item>
+  <title>HTTP接口性能压力测试</title>
+  <link>http://localhost:1313/posts/http-api-benchmarking-load-testing/</link>
+  <pubDate>Tue, 18 Jul 2023 11:05:22 &#43;0800</pubDate>
+  <author>胡超</author>
+  <guid>http://localhost:1313/posts/http-api-benchmarking-load-testing/</guid>
+  <description><![CDATA[开发接口以后，对性能有要求的 接口，需要做 性能压力测试。常见免费的如：经典的 ab，性能不太好的 jmeter、siege(有时候都怀疑程序性能不行了)，另介绍 hey、k6、vegeta、wrk]]></description>
+</item>
+</channel>
+</rss>
