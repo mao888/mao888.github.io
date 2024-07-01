@@ -54,6 +54,5 @@ repost:
 - [配置存活、就绪和启动探针 | Kubernetes](https://kubernetes.io/zh-cn/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
 - [kubernetes的三种探针startupprobe,ReadinessProbe,LivenessProbe记录 - 陈雷雷 - 博客园 (cnblogs.com)](https://www.cnblogs.com/superlinux/p/14933961.html)
 
-本文首先发布于 [https://www.890808.xyz/](https://www.890808.xyz/) ，其他平台需要审核更新慢一些。
 
-![javalover123](https://img.890808.xyz/file/javalover123/2023/04/688b88cfd4ed9f6fcd56828b849ce47c.jpg)
+![Gopher毛](https://blog.huchao.vip/picx-images-hosting/blog/%E5%85%AC%E4%BC%97%E5%8F%B7.58h8ppzfbd.webp)

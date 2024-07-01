@@ -911,19 +911,23 @@ style = "mp" # "", mp, identicon, monsterid, wavatar, retro, blank, robohash
 
   # Footer config
   [params.footer]
+    visitor = true
     enable = true
     # whether to show copyright info
     copyright = true
     # whether to show the author
     author = true
     # Site creation year
-    since = ""
+    since = "2024"
     # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
-    gov = ""
+    # 公网安备信息，仅在中国使用（支持 HTML 格式）
+    gov = "公网安备信息"
     # ICP info only in China (HTML format is supported)
-    icp = ""
+    # ICP 备案信息，仅在中国使用（支持 HTML 格式）
+    icp = "豫ICP备2021027892号"
     # license info (HTML format is supported)
-    license = ""
+    # 许可协议信息（支持 HTML 格式）
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     # FixIt 0.3.0 | NEW whether to show Hugo and theme info
     [params.footer.powered]
       enable = true
@@ -931,18 +935,18 @@ style = "mp" # "", mp, identicon, monsterid, wavatar, retro, blank, robohash
       themeLogo = true
     # FixIt 0.2.17 | CHANGED Site creation time
     [params.footer.siteTime]
-      enable = false
+      enable = true
       animate = true
       icon = "fa-solid fa-heartbeat"
-      pre = ""
-      value = "" # e.g. "2021-12-18T16:15:22+08:00"
+      pre = "网站已经运行"
+      value = "2024-06-06T08:00:00+08:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
-      powered = 0
-      copyright = 0
-      statistics = 0
-      visitor = 0
-      beian = 0
+      powered = 0     # Hugo 和主题信息
+      copyright = 1   # 版权信息
+      statistics = 2  # 统计信息
+      visitor = 300     # 访客信息
+      beian = 400       # 备案信息
 
   # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
   [params.archives]

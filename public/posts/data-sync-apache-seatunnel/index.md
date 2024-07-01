@@ -111,10 +111,9 @@ sink {
 - [新版本自带 同步引擎](https://seatunnel.apache.org/docs/2.3.1/seatunnel-engine/about)，不用依赖 spark、flink 等运行，降低了 小数据量同步场景 部署复杂度
 - 新版本开始提供 [UI界面](https://github.com/apache/seatunnel-web)，目前强依赖 调度平台 Apache DolphinScheduler
 
-**本文遵守[【CC BY-NC】协议，转载请保留原文出处及本版权声明，否则将追究法律责任。](https://creativecommons.org/licenses/by-nc/4.0/)**   
-***本文首先发布于 [https://www.890808.xyz/](https://www.890808.xyz/) ，其他平台需要审核更新慢一些。***   
 
-![javalover123](https://img.890808.xyz/file/javalover123/2023/04/688b88cfd4ed9f6fcd56828b849ce47c.jpg)
+![Gopher毛](https://blog.huchao.vip/picx-images-hosting/blog/%E5%85%AC%E4%BC%97%E5%8F%B7.58h8ppzfbd.webp)
+
 
 ---
 

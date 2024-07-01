@@ -92,7 +92,5 @@ export default function () {
 | [vegeta](https://github.com/tsenart/vegeta) | 10400 |  GO   | 5平台    | 性能高，跨平台，报表没有显示慢请求原因                          |
 | [wrk](https://github.com/wg/wrk)            | -     |   C  | Linux    | 性能超高，不跨平台，最近发版是 2021年2月，另WSL里面运行没有效果 |
 
-**本文遵守[【CC BY-NC】协议，转载请保留原文出处及本版权声明，否则将追究法律责任。](https://creativecommons.org/licenses/by-nc/4.0/)**   
-***本文首先发布于 [https://www.890808.xyz/](https://www.890808.xyz/) ，其他平台需要审核更新慢一些。***   
 
-![javalover123](https://img.890808.xyz/file/javalover123/2023/04/688b88cfd4ed9f6fcd56828b849ce47c.jpg)
+![Gopher毛](https://blog.huchao.vip/picx-images-hosting/blog/%E5%85%AC%E4%BC%97%E5%8F%B7.58h8ppzfbd.webp)

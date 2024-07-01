@@ -73,7 +73,5 @@ repost:
 - `es-client`、Head 更适合个人使用，其中 `es-client` 在 数据浏览、基础搜索、索引过滤 3方面明显更优，Head 在 集群健康度、索引分片副本分布 显示方面更好
 - Kibana 更适合企业级使用，功能多，使用门槛高也一些。如配置好 时间字段，可以方便的 使用日期选择器筛选，还有 性能分析工具 Search Profiler、Grok Debugger 等，但是 7.11版本开始 需考虑许可证问题
 
-我的博客即将同步至腾讯云开发者社区，邀请大家一同入驻：<https://cloud.tencent.com/developer/support-plan?invite_code=2p6eldem07gg4>  
-**本文遵守[【CC BY-NC】协议，转载请保留原文出处及本版权声明，否则将追究法律责任。](https://creativecommons.org/licenses/by-nc/4.0/)**  
-***本文首先发布于 [https://www.890808.xyz/](https://www.890808.xyz/) ，其他平台需要审核更新慢一些。***  
-![javalover123](https://img.890808.xyz/file/javalover123/2023/04/688b88cfd4ed9f6fcd56828b849ce47c.jpg)
+
+![Gopher毛](https://blog.huchao.vip/picx-images-hosting/blog/%E5%85%AC%E4%BC%97%E5%8F%B7.58h8ppzfbd.webp)
