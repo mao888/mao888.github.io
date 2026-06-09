@@ -13,7 +13,7 @@
 # website title
 title = "毛"
 # Hostname (and path) to the root
-baseURL = "https://blog.huchao.vip/"
+baseURL = "https://hugo-blog.huchao.vip/"
 # theme list
  theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
